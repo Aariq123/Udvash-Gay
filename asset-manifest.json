@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Udvash-Gay/static/css/main.82c03ddf.css",
+    "main.js": "/Udvash-Gay/static/js/main.97f7e05d.js",
+    "static/media/at.png": "/Udvash-Gay/static/media/at.d9dc21c26fe1ef59eb37.png",
+    "static/media/varsity.jpg": "/Udvash-Gay/static/media/varsity.049b42dfb57effe3a348.jpg",
+    "static/media/mair.jpg": "/Udvash-Gay/static/media/mair.9feee07b28efd8b69f83.jpg",
+    "static/media/hehe.webp": "/Udvash-Gay/static/media/hehe.d3162026af9730000775.webp",
+    "static/media/medic.jpg": "/Udvash-Gay/static/media/medic.d1fede84c9eae094e78f.jpg",
+    "static/media/Udvash-Logo.webp": "/Udvash-Gay/static/media/Udvash-Logo.ea30855a8db2d06f6d92.webp",
+    "index.html": "/Udvash-Gay/index.html",
+    "main.82c03ddf.css.map": "/Udvash-Gay/static/css/main.82c03ddf.css.map",
+    "main.97f7e05d.js.map": "/Udvash-Gay/static/js/main.97f7e05d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82c03ddf.css",
+    "static/js/main.97f7e05d.js"
+  ]
+}
