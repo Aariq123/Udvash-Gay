@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./pages/navbar";
+import Home from "./pages/home";
+import About from "./pages/About";
+import Contact from "./pages/contact";
+import { useContext } from 'react';
+import { MainContext } from './pages/context';
+
 
 function App() {
+  const {  closeMenu } = useContext(MainContext)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" onClick={(e)=>closeMenu(e)}>
+      <Navbar></Navbar>
+      <Routes>
+        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/about" element={<About></About>}></Route>
+        <Route path="/contact" element={<Contact></Contact>}></Route>
+      </Routes>
     </div>
   );
 }
